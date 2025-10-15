@@ -6,7 +6,6 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Separator } from "@/components/ui/separator";
 import { Chrome } from "lucide-react";
 import { useState } from "react";
-import { supabase } from "@/lib/supabase";
 import { toast } from "sonner";
 
 const SignupPage = () => {
