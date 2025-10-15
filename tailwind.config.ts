@@ -7,6 +7,7 @@ export default {
     "./components/**/*.{ts,tsx}",
     "./app/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
+    "./src/**/*.css",
   ],
   prefix: "",
   theme: {
@@ -60,10 +61,7 @@ export default {
           DEFAULT: "#FACC15", // warm yellow
           foreground: "#111827",
         },
-        bazaarBackground: {
-          DEFAULT: "#F9FAFB", // off-white
-          foreground: "#111827", // charcoal gray
-        },
+        // bazaarBackground colors are now defined as CSS variables in src/globals.css
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
