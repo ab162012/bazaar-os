@@ -52,6 +52,18 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        bazaarPrimary: {
+          DEFAULT: "#2563EB", // cool blue
+          foreground: "#FFFFFF",
+        },
+        bazaarAccent: {
+          DEFAULT: "#FACC15", // warm yellow
+          foreground: "#111827",
+        },
+        bazaarBackground: {
+          DEFAULT: "#F9FAFB", // off-white
+          foreground: "#111827", // charcoal gray
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
