@@ -9,6 +9,7 @@ import LoginPage from "./pages/LoginPage";
 import SignupPage from "./pages/SignupPage";
 import SellerDashboard from "./pages/SellerDashboard";
 import BuyerStorePage from "./pages/BuyerStorePage";
+import StoreCreationWizard from "./pages/StoreCreationWizard"; // New import
 
 const queryClient = new QueryClient();
 
@@ -22,6 +23,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignupPage />} />
+          <Route path="/store-creation" element={<StoreCreationWizard />} /> {/* New route */}
           <Route path="/seller-dashboard" element={<SellerDashboard />} />
           <Route path="/store/:subdomain" element={<BuyerStorePage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
